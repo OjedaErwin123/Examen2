@@ -47,11 +47,12 @@ namespace CalculadoraMovimiento
                         CalcularMRUA(opcionCalculo);
                         break;
                 }
-                //En el case 1 llamara al calculo hecho en la funcion calcularMRU de l1 53 a la 83
+                //En el case 1 llamara a la funcion calcularMRU de 53 a la 83
+                //En el case 2 llamara a la funcion calcularMRU de 53 a la 83
             }
         }
 
-        static void CalcularMRU(int opcionCalculo)
+        static void CalcularMRU(int opcionCalculo) //Funcion MRU
         {
             double v, t, distancia;
             Console.WriteLine("Ingrese la velocidad (m/s):");
@@ -60,6 +61,8 @@ namespace CalculadoraMovimiento
                 Console.WriteLine("Entrada inválida. Por favor, ingrese un número válido.");
                 return;
             }
+
+            
 
             Console.WriteLine("Ingrese el tiempo (s):");
             if (!double.TryParse(Console.ReadLine(), out t))
@@ -84,8 +87,7 @@ namespace CalculadoraMovimiento
             }
         }
 
-
-        static void CalcularMRUA(int opcionCalculo)
+        static void CalcularMRUA(int opcionCalculo) //funcion MRUA
         {
             double vi, vf, a, t;
             Console.WriteLine("Ingrese la velocidad inicial (m/s):");

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "EXAMEN2/1.0.0": {
+        "runtime": {
+          "EXAMEN2.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "EXAMEN2/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
