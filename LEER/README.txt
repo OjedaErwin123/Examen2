@@ -8,7 +8,7 @@ La cual te permite calcular diferentes aspectos del Movimiento Rectilíneo Unifo
 
 1. **Ingresa al repositorio:** Ingresa a la carpeta codigo.
 
-2. **Ejecuta el Program.cs:** Dentro de la carpeta estara un ejecutable para empezar a usar la calculadora
+2. **Ejecuta el Program.cs:** Dentro de la carpeta estara un ejecutable, copia el codigo y pruebalo! para empezar a usar la calculadora
 
 3. **Usar la Calculadora:**
    - Ingresa los valores de velocidad inicial, velocidad final, tiempo y aceleración cuando se te solicite.
@@ -17,6 +17,6 @@ La cual te permite calcular diferentes aspectos del Movimiento Rectilíneo Unifo
 
 ## Problemas o Sugerencias
 
-Si encuentras algún problema al usar la calculadora o tienes alguna sugerencia de mejora, por favor háznoslo saber abriendo un issue en este repositorio. ¡Tu opinión es importante para nosotros!
+Si encuentras algún problema al usar la calculadora o tienes alguna sugerencia de mejora, por favor háznoslo saber abriendo un issue en este repositorio. ¡Tu opinión es importante para seguir mejorando!
 
 By: Erwin Ojeda:)
