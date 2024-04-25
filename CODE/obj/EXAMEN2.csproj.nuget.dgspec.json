@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\PERSONAL\\Desktop\\INTRO PROGRA\\FUND\\EXAMEN2\\CODE\\EXAMEN2.csproj": {}
+    "C:\\Users\\PERSONAL\\Desktop\\INTRO PROGRA\\FUND\\EXAMEN2 CLON\\Examen2\\CODE\\EXAMEN2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\PERSONAL\\Desktop\\INTRO PROGRA\\FUND\\EXAMEN2\\CODE\\EXAMEN2.csproj": {
+    "C:\\Users\\PERSONAL\\Desktop\\INTRO PROGRA\\FUND\\EXAMEN2 CLON\\Examen2\\CODE\\EXAMEN2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PERSONAL\\Desktop\\INTRO PROGRA\\FUND\\EXAMEN2\\CODE\\EXAMEN2.csproj",
+        "projectUniqueName": "C:\\Users\\PERSONAL\\Desktop\\INTRO PROGRA\\FUND\\EXAMEN2 CLON\\Examen2\\CODE\\EXAMEN2.csproj",
         "projectName": "EXAMEN2",
-        "projectPath": "C:\\Users\\PERSONAL\\Desktop\\INTRO PROGRA\\FUND\\EXAMEN2\\CODE\\EXAMEN2.csproj",
+        "projectPath": "C:\\Users\\PERSONAL\\Desktop\\INTRO PROGRA\\FUND\\EXAMEN2 CLON\\Examen2\\CODE\\EXAMEN2.csproj",
         "packagesPath": "C:\\Users\\PERSONAL\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PERSONAL\\Desktop\\INTRO PROGRA\\FUND\\EXAMEN2\\CODE\\obj\\",
+        "outputPath": "C:\\Users\\PERSONAL\\Desktop\\INTRO PROGRA\\FUND\\EXAMEN2 CLON\\Examen2\\CODE\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\PERSONAL\\AppData\\Roaming\\NuGet\\NuGet.Config"

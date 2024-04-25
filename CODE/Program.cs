@@ -14,8 +14,9 @@ namespace CalculadoraMovimiento
                 Console.WriteLine("1. Movimiento Rectilíneo Uniforme (MRU)");
                 Console.WriteLine("2. Movimiento Rectilíneo Uniformemente Acelerado (MRUA)");
                 Console.WriteLine("3. Salir");
+                Console.WriteLine("4. Base del Cuadrado");
                 //A partir de la 12 a la 16 mostraremos lo primero que vera el usuario "Interfaz de usuario"
-                if (!int.TryParse(Console.ReadLine(), out int opcion) || opcion < 1 || opcion > 3)
+                if (!int.TryParse(Console.ReadLine(), out int opcion) || opcion < 1 || opcion > 4)
                 {
                     Console.WriteLine("Opción no válida. Por favor, seleccione una opción válida.");
                     continue;
@@ -25,11 +26,22 @@ namespace CalculadoraMovimiento
                 if (opcion == 3)
                     break;
 
-                Console.WriteLine("¿Qué desea calcular?");
-                Console.WriteLine("1. Distancia");
-                Console.WriteLine("2. Tiempo");
-                Console.WriteLine("3. Velocidad");
-                if (!int.TryParse(Console.ReadLine(), out int opcionCalculo) || opcionCalculo < 1 || opcionCalculo > 3)
+                if (opcion == 1 || opcion == 2)
+                {
+                    Console.WriteLine("¿Qué desea calcular?");
+                    Console.WriteLine("1. Distancia");
+                    Console.WriteLine("2. Tiempo");
+                    Console.WriteLine("3. Velocidad");
+                }
+
+                
+                if (opcion == 4)
+                {
+                    Console.WriteLine("¿Qué desea calcular?");
+                    Console.WriteLine("1. Area");
+                }
+
+                if (!int.TryParse(Console.ReadLine(), out int opcionCalculo) || opcionCalculo < 1 || opcionCalculo > 4)
                 {
                     Console.WriteLine("Opción no válida. Por favor, seleccione una opción válida.");
                     continue;
@@ -45,6 +57,9 @@ namespace CalculadoraMovimiento
                         break;
                     case 2:
                         CalcularMRUA(opcionCalculo);
+                        break;
+                    case 4:
+                        BaseCuadrado(opcionCalculo);
                         break;
                 }
                 //En el case 1 llamara a la funcion calcularMRU de 53 a la 83
@@ -85,6 +100,36 @@ namespace CalculadoraMovimiento
                     Console.WriteLine($"La velocidad es: {v / t} m/s.");
                     break;
             }
+        }
+
+        static void BaseCuadrado(int opcionCalculo)
+        {
+            double b, h, area;
+            Console.WriteLine("Ingrese su base:");
+            if (!double.TryParse(Console.ReadLine(), out b))
+            {
+                Console.WriteLine("Entrada inválida. Por favor, ingrese un número válido.");
+                return;
+            }
+
+            
+
+            Console.WriteLine("Ingrese su altura:");
+            if (!double.TryParse(Console.ReadLine(), out h))
+            {
+                Console.WriteLine("Entrada inválida. Por favor, ingrese un número válido.");
+                return;
+            }
+        
+
+
+            switch (opcionCalculo)
+            {
+                case 1:
+                    area = b * h;
+                    Console.WriteLine($"La area del cuadrado es: {area} metros cuadrado.");
+                    break;
+        }
         }
 
         static void CalcularMRUA(int opcionCalculo) //funcion MRUA
