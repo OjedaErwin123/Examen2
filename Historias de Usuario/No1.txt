@@ -1,0 +1,23 @@
+# Historia de Usuario: No 1
+## Titulo: Calculadora de MRU y MRUA
+## Descripción
+Como usuario, quiero una calculadora que me permita calcular fácilmente los diferentes componentes del movimiento rectilíneo uniforme (MRU) y del movimiento rectilíneo uniformemente acelerado (MRUA), y que me ofrezca la opción de realizar más cálculos después de obtener un resultado.
+
+## Criterios de Aceptación
+1. Como usuario, quiero poder ingresar los valores de la velocidad inicial (v₀), la velocidad final (v), el tiempo (t) y la aceleración (a) para calcular cualquier componente del MRU o MRUA.
+2. Como usuario, quiero poder seleccionar qué componente del movimiento deseo calcular (velocidad final, velocidad inicial, tiempo o aceleración).
+3. Como usuario, quiero que después de calcular un componente, se me muestre el resultado y se me pregunte si quiero realizar otro cálculo.
+4. Como usuario, quiero que la calculadora tenga una interfaz simple y fácil de entender.
+
+## Prioridad
+Prioridad del Proyecto Alta
+
+## Tareas
+- Diseñar la interfaz de usuario de la calculadora.
+- Implementar la lógica para calcular los componentes del MRU y MRUA.
+- Desarrollar la funcionalidad para mostrar el resultado de los cálculos y preguntar al usuario si desea realizar otro cálculo.
+- Probar la calculadora para garantizar su funcionamiento correcto y su facilidad de uso.
+
+## Notas
+- Es importante que la calculadora sea intuitiva y fácil de usar, ya que está dirigida a usuarios de todo rango de edad.
+- Se deben manejar adecuadamente los casos donde los valores ingresados no sean válidos (por ejemplo, tiempos negativos o velocidades iniciales iguales a velocidades finales en el MRUA).

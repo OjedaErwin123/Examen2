@@ -1,0 +1,34 @@
+# Historia de Usuario No 2
+## Titulo: Calculadora de MRU y MRUA 2.0
+
+## Descripción
+Como usuario, quiero una calculadora que me permita calcular fácilmente los diferentes componentes del movimiento rectilíneo uniforme (MRU) y del movimiento rectilíneo uniformemente acelerado (MRUA), y que además tenga un historial de cambios, permita discusiones sobre los cálculos realizados, pueda estimar el tiempo de desarrollo y asignar tareas adicionales para mejorar la funcionalidad de la calculadora.
+
+## Criterios de Aceptación
+1. Como usuario, quiero poder ingresar los valores de los componentes ya sea para MRU o MRUA y poder calcular el componente faltante.
+2. Como usuario, quiero que la estimación del tiempo de desarrollo para esta funcionalidad sea realizada por el equipo de desarrollo.
+3. Como usuario, quiero poder asignar tareas adicionales para mejorar la funcionalidad de la calculadora, como la inclusión de gráficos de resultados o la implementación de un modo oscuro.
+   
+## Tareas
+- Desarrollar la interfaz de usuario de la calculadora con opciones de historial y discusiones.
+- Implementar la lógica para calcular los componentes del MRU y MRUA.
+- Realizar una estimación del tiempo de desarrollo por el equipo de desarrollo.
+   
+## Historial de Cambios
+- Versión 1.0:** Interfaz básica de la calculadora con funcionalidad de cálculo de MRU y MRUA.
+- Versión 1.1:** Agregada opción para repetir cálculos si es necesario.
+- Versión 1.2:** Agregada opción para convertir valores de un sistema a otro.
+- Versión 1.3:** Asignadas tareas adicionales para mejorar la calculadora.
+
+## Discusiones
+- Discusión 1:¿Preguntamos si realizara otro calculo o que acabe el programa?
+                        Preguntaremos si quiere realizar otro calculo, y añadiremos la opción de SALIR.
+
+- Discusión 2:¿Qué sistemas agregaríamos para las conversiones de unidades?
+                        Abarcaremos el Sistema Internacional, Cegesimal, y el Ingles
+
+## Estimación
+- Tiempo estimado: 2 semanas
+   
+## Tareas Adicionales
+- Tarea 1: Implementar un modo oscuro en la interfaz de usuario.
